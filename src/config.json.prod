@@ -1,0 +1,10 @@
+
+// Prod:
+ {
+   "API_URL": "https://www.sesprout.com/api"
+ }
+
+// Dev:
+ {
+  "API_URL": "http://192.168.1.114:3000"
+}

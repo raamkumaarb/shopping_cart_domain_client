@@ -1,0 +1,113 @@
+// /* NAVIGATION */
+@import '../partials/vars';
+
+.profile-header-icon {
+    background-image: url(../img/avatar-2-64.png);
+    background-size: 32px 32px;
+    background-position: 0 0;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+.typical-header-item {
+      float: left;
+    margin-right: -10px;
+    position: relative;
+}
+.typical-header-item .btn.btn-rounded.dropdown-toggle {
+  height: 30px;
+  padding: 0 12px;
+  font-size: 0.8125rem;
+  line-height: 28px;
+  background-color: #00a8ff;
+  border-color: #00a8ff;
+  color: #fff;
+}
+
+.site-header .header-item a {
+  height: 30px;
+  line-height: 30px;
+}
+
+.header-item a {
+  color: #343434;
+  font-weight: 600;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.site-header .header-item {
+  float: left;
+  margin-right: -10px;
+}
+
+.header-item a .font-icon {
+    vertical-align: middle;
+    margin: 0 6px 0 0;
+    color: #adb7be;
+    line-height: 16px;
+    position: relative;
+    top: -2px;
+}
+
+.site-header .header-item .lbl {
+    line-height: 16px;
+}
+
+.header-item a:after {
+    color: #adb7be;
+    border-top: 5px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    position: relative;
+    top: -1px;
+}
+
+.header-item a:hover {
+    color: #00a8ff;
+}
+
+.header-item a:hover .font-icon {
+  color: #00a8ff;
+}
+
+.header-item a .font-icon {
+    transition: all 0.2s ease-in-out;
+}
+
+#header-dd-checkout {
+  float: right;
+}
+
+#header-logo {
+  background-image: url(../img/logo.png);
+  background-size: 190px 35px;
+  background-position: 0px 0px;
+  width: 190px;
+  height: 35px;
+  display: inline-block;
+}
+
+.site-header .header-item.pull-right {
+  float: right;
+}
+
+#header-dd-checkout {
+  height: 30px;
+  line-height: 30px;
+  margin-right: 10px;
+  i {
+    font-size: 2.25rem;
+    color: rgba(155, 167, 177, 0.63);
+    transition: all 0.2s ease-in-out;
+    &:hover {
+    color: $color-bg-blue;
+  }
+  }
+}
+
+.dropdown.checkout-menu {
+  top: 1px;
+  margin-right: -5px;
+}

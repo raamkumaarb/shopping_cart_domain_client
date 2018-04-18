@@ -1,0 +1,28 @@
+
+.row.purchases-page {
+  thead {
+    font-size: 90%;
+  }
+
+  tbody {
+    font-size: 90%;
+  }
+}
+.user-items {
+  font-size: 0.90rem;
+}
+
+.export-buttons-row {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+hr {
+  margin-top:0;
+}
+
+.resizing-table-container {
+  max-height:800px;
+  overflow-y:auto;
+  overflow-x:hidden;
+}

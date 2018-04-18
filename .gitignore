@@ -1,0 +1,9 @@
+/node_modules
+stats.json
+bundle.js
+npm-debug.log
+/src/config.json
+config.json
+./src/config.json
+/dev
+/log

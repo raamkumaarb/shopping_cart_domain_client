@@ -1,0 +1,121 @@
+@import '../partials/vars';
+
+.blank-row
+{
+    height: 25px !important; /* Overwrite any previous rules */
+    background-color: #FFFFFF;
+}
+
+.last-row td {
+  border: transparent;
+  vertical-align: top;
+}
+
+#pp-buy-button {
+  cursor: pointer;
+}
+
+.fa.fa-times {
+  cursor: pointer;
+  color: #D9534F;
+}
+
+.light-gray {
+  font-style: italic;
+  color: gray;
+}
+
+.subtotal-row {
+  td {
+    border: transparent;
+    margin: 0;
+    padding-top:0;
+    vertical-align: top;
+  }
+}
+
+.discount-row {
+
+  &.hide {
+    display: none;
+  }
+
+  &.show {
+    display: table-row;
+  }
+  td {
+    border: transparent;
+    padding-top:0;
+    vertical-align: top;
+  }
+}
+
+.discount-box {
+  position: relative;
+  color: green;
+  i {
+    position: absolute;
+    left: -8px;
+    font-size: 0.5rem;
+    color: green;
+    top: 7px;
+  }
+}
+
+.checkout-page {
+  .card {
+    margin-bottom: 40px;
+  }
+  .checkbox-row {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+.form-group {
+  &.has-success {
+    label {
+      margin-left: 0px;
+    }
+  }
+}
+
+.failed-promo-label {
+  margin-left: 0px;
+}
+.checkoutBox {
+    bottom: 0;
+    margin: 0 auto;
+    font-size: 80%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.41);
+    position: fixed;
+    bottom: 1px;
+    height: 107px;
+    transition: .25s;
+    width: 162px;
+    .card {
+      margin-bottom: 0px;
+      border-radius: 0.25rem 0.25rem 0rem 0rem;
+      .card-header {
+        color: $color-text;
+        font-size: 1rem;
+        text-align: left;
+      }
+    }
+  }
+
+
+.checkout-top-text {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.checkout-confirm-list {
+  text-align: left;
+  margin-left: 20px;
+  li {
+    font-size: .9rem;
+  }
+}

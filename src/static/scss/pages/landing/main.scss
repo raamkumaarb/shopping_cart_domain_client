@@ -1,0 +1,57 @@
+@import 'partials/mixins';
+@import 'partials/vars';
+@import 'partials/reset';
+@import 'partials/helpers';
+@import 'partials/icons';
+@import '../../partials/fonts';
+@import 'partials/typography';
+@import 'partials/forms';
+@import 'partials/grids';
+@import 'themes/sesprout';
+@import 'partials/interface';
+@import 'partials/base';
+
+#lp {
+  margin-top:104px;
+  background-color: white;
+  .icon-txt-item .font-icon {
+    font-size: 3.875rem;
+    color: #0082c6;
+    // color: #f9242e;
+  }
+  img {
+    margin-top: 27px;
+  }
+}
+
+#landing-footer {
+  .site-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    padding-top: 0px;
+    padding-bottom: 57px;
+    font-size: 80%;
+    text-align: center;
+    .footer-content {
+      height: 260px;
+      background: #f4f6f8;
+      padding: 40px 0 40px;
+      line-height: 1.6;
+      font-size: .9375rem;
+    }
+  }
+}
+
+#landing-footer .site-footer .footer-content {
+  height: 170px;
+  background: #f4f6f8;
+  padding: 40px 0 40px;
+  line-height: 1.6;
+  font-size: .9375rem;
+}
+
+.footer-bottom .container{
+  text-align: center;
+}

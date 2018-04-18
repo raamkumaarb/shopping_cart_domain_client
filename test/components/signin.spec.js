@@ -1,0 +1,70 @@
+import {renderComponent, expect} from '../test_helper'
+import Signin from '../../src/components/auth/Signin'
+
+const TEST_USER = 'testUser@sesprout.com'
+const TEST_PASSWORD = 'test1234'
+
+describe('Signin', () => {
+  let component
+
+  beforeEach(() => {
+    component = renderComponent(Signin)
+  })
+  it('loads', () => {
+    expect(component).to.exist
+  })
+
+  it('has the correct class', () => {
+    expect(component).to.have.class('signin')
+  })
+
+  it('renders signin box', () => {
+    expect(component.find('form')).to.have.class('sign-box')
+  })
+
+  it('renders password textbox', () => {
+    expect(component.find('input.password-textbox')).to.exist
+  })
+
+
+  describe('username textbox', () => {
+    beforeEach(() => {
+      component.find('input.email-textbox').simulate('change', TEST_USER)
+    })
+
+    it('renders username textbox', () => {
+      expect(component.find('input.email-textbox')).to.exist
+    })
+
+    it('shows text in textarea', () => {
+      expect(component.find('input.email-textbox')).to.have.value(TEST_USER)
+    })
+  })
+
+  describe('password textbox', () => {
+    let passwordSelector = 'input.password-textbox'
+    beforeEach(() => {
+      component.find(passwordSelector).simulate('change', TEST_PASSWORD)
+    })
+
+    it('renders password textbox', () => {
+      expect(component.find(passwordSelector)).to.exist
+    })
+
+    it('shows text in textarea', () => {
+      expect(component.find(passwordSelector)).to.have.value(TEST_PASSWORD)
+    })
+  })
+
+  // describe('failed login', () => {
+  //   let notieSelector = '#notie-alert-outer'
+  //   let passwordSelector = 'input.password-textbox'
+  //   it('enter password only shows notie error', () => {
+  //     component.find(passwordSelector).simulate('change', TEST_PASSWORD)
+  //     component.find(passwordSelector).simulate('submit')
+  //     expect(component.find(notieSelector)).to.exist
+  //   })
+  // })
+
+
+})

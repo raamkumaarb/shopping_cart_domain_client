@@ -1,0 +1,14 @@
+#user-details {
+  overflow: auto;
+  .form-group {
+    &.row {
+      label {
+        padding-top: .8rem;
+      }
+      .form-control:disabled, .form-control[readonly] {
+        background-color: #eceeef;
+        opacity: 1;
+      }
+    }
+  }
+}
