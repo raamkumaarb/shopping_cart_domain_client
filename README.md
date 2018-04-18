@@ -1,6 +1,9 @@
 # Domain Shopping Cart - Client
 
-```
-	> npm install
-	> npm start
-```
+# **ReactJS, Redux, Redux Form, Webpack & Bootstrap 4, Babel, ES6, ES7**
+
+Clone the git repo
+
+Install necessary node modules using - `npm install`
+
+Run using - `npm start`
