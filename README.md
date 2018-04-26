@@ -16,7 +16,7 @@
 You need to have nodejs and npm installed
 
 ### Installation and To Start Server
-1. clone the git repository
+1. Clone the git repository
 2. cd hyr/api
 3. `npm install`
 4. `npm start`
