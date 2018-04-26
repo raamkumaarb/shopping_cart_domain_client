@@ -1,25 +1,9 @@
-# hyr.io
+# Domain Shopping Cart - Client
 
-## Application:
-- Mobile-Response App for Jobseekers
-- Web Admin for HR Employers
-- Admin for Hyr.io Staff
-- Native Mobile using React-Native
+# **ReactJS, Redux, Redux Form, Webpack & Bootstrap 4, Babel, ES6, ES7**
 
-## Technical Stack:
-- Material-UI Design
-- React
-- Express
-- PostGRE SQL
+Clone the git repo
 
-### Requirements
-You need to have nodejs and npm installed
+Install necessary node modules using - `npm install`
 
-### Installation and To Start Server
-1. Clone the git repository
-2. cd hyr/api
-3. `npm install`
-4. `npm start`
-5. Check the READ.me file in all module and follow the instructions to run that module.
-
-
+Run using - `npm start`
