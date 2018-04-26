@@ -1,16 +1,16 @@
 # hyr.io
 
 ## Application:
-Mobile-Response App for Jobseekers
-Web Admin for HR Employers
-Admin for Hyr.io Staff
-Native Mobile using React-Native
+- Mobile-Response App for Jobseekers
+- Web Admin for HR Employers
+- Admin for Hyr.io Staff
+- Native Mobile using React-Native
 
-## Stack:
-Material-UI Design
-React
-Express
-PostGRE SQL
+## Technical Stack:
+- Material-UI Design
+- React
+- Express
+- PostGRE SQL
 
 ### Requirements
 You need to have nodejs and npm installed
@@ -20,6 +20,6 @@ You need to have nodejs and npm installed
 2. cd hyr/api
 3. `npm install`
 4. `npm start`
-5. Check the READ.me file in all module and follow the instructions to run it.
+5. Check the READ.me file in all module and follow the instructions to run that module.
 
 
